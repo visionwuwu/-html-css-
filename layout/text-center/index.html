@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            background: #f0f3ef;
+            width: 500px;
+            height: 70px;
+            line-height: 70px;
+            text-align: center;
+        }
+        
+        .container h2 {
+            display: inline-block;
+            position: relative;
+        }
+        
+        .container h2::before,
+        .container h2::after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 50px;
+            height: 2px;
+            background: #000;
+        }
+        
+        .container h2::before {
+            left: -75px;
+            top: 40px;
+        }
+        
+        .container h2::after {
+            top: 40px;
+            right: -75px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>最近新闻</h2>
+    </div>
+</body>
+
+</html>

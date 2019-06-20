@@ -1,0 +1,116 @@
+/* login css start */
+
+.login {
+    position: fixed;
+    padding: 35px;
+    width: 380px;
+    height: 443px;
+    left: 50%;
+    top: 50%;
+    margin-top: -221px;
+    margin-left: -190px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.login .logo {
+    margin-bottom: 38px;
+    text-align: center;
+}
+
+.login form {
+    width: 310px;
+}
+
+.login form input,
+.login form button[type="submit"] {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding-left: 4px;
+    line-height: 40px;
+    border-radius: 3px;
+    margin-bottom: 18px;
+}
+
+.login form input {
+    border: 1px solid #cfe0da;
+}
+
+.login form input::placeholder {
+    color: #bdbdbd;
+    font-size: 14px;
+}
+
+.login form .style {
+    color: #838383;
+    padding: 17px 0 19px 0;
+}
+
+.login form .style .btn {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #cfe0da;
+    vertical-align: top;
+    margin-right: 10px;
+    position: relative;
+    border-radius: 3px;
+}
+
+.login form .style .btn i {
+    position: absolute;
+    width: 14px;
+    height: 8px;
+    left: 2px;
+    top: 5px;
+    background: url(../images/yes.png) no-repeat;
+}
+
+.login form .style label {
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.login form .style label input[type="checkbox"] {
+    display: none;
+}
+
+.login form .style label input[type="checkbox"]:checked+span>i {
+    display: block;
+}
+
+.login form .style a {
+    float: right;
+}
+
+.login form button[type="submit"] {
+    background: #28c08d;
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.login .regiest {
+    margin-top: 57px;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.login .regiest a {
+    color: #2abe8c;
+    vertical-align: top;
+}
+
+.login .regiest a .icon_go {
+    margin-left: 11px;
+    vertical-align: top;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/icon-go.png)
+}
+
+
+/* login css end */

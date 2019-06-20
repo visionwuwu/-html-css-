@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .header {
+            position: fixed;
+            text-align: center;
+            line-height: 60px;
+            height: 60px;
+            width: 100vw;
+            top: 0;
+            left: 0;
+            background: #b3c0d1;
+            z-index: 999;
+        }
+        
+        .left,
+        .right,
+        .main {
+            padding-top: 60px;
+            box-sizing: border-box;
+            min-height: 100vh;
+        }
+        
+        .left,
+        .right {
+            position: fixed;
+            width: 200px;
+            top: 0;
+            background: #d3dce6;
+        }
+        
+        .left {
+            left: 0;
+        }
+        
+        .right {
+            right: 0;
+        }
+        
+        .main {
+            background: #e9eef3;
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header"></div>
+    <div class="left"></div>
+    <div class="main">
+        <div style="height: 2000px;">1111111111111111</div>
+    </div>
+    <div class="right"></div>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .aside {
+            width: 200px;
+            min-height: 100vh;
+            position: fixed;
+            left: 0;
+            top: 0;
+            background: #d3dce6;
+            z-index: 888;
+        }
+        
+        .main {
+            position: relative;
+            margin-left: 200px;
+            min-height: 100vh;
+            background: #e9eef3;
+        }
+        
+        .main .header,
+        .main .footer {
+            margin-left: 200px;
+            position: fixed;
+            width: 100%;
+            text-align: center;
+            line-height: 60px;
+            height: 60px;
+            left: 0;
+            background: #b3c0d1;
+            z-index: 999;
+        }
+        
+        .main .header {
+            top: 0;
+        }
+        
+        .main .content {
+            min-height: 100vh;
+            padding: 60px 0;
+            box-sizing: border-box;
+        }
+        
+        .main .footer {
+            bottom: 0vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="aside">
+        <div style="height: 2000px;">111111111111</div>
+    </div>
+    <div class="main">
+        <div class="header">头部</div>
+        <div class="content">
+            <div style="height: 2000px;">111111111111</div>
+        </div>
+        <div class="footer">底部</div>
+    </div>
+</body>
+
+</html>
